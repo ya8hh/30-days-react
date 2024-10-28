@@ -1,13 +1,17 @@
-
+import Header from "./components/Header"
+import Real from "./components/Real"
+import Footer from "./components/Footer"
 
 
 function App() {
   
 
   return (
-    <>
-    <h1>Random Quote Generator</h1>
-    </>
+    <div className="flex flex-col h-screen">
+    <Header/>
+    <Real/>
+    <Footer/>
+    </div>
   )
 }
 
