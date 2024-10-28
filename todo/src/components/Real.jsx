@@ -10,7 +10,7 @@ const Real = () => {
             
             
             
-            setTODO([...TODO,mini]);
+            setTODO([...TODO,{text:mini}]);
             console.log(TODO);
             document.querySelector("input").value="";
 
